@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/constants.dart';
+import 'package:portfolio/sections/about/about_section.dart';
 import 'package:portfolio/sections/background.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -18,7 +19,7 @@ class HomeScreen extends StatelessWidget {
               children: const [
                 // TopSection(),
                 // SizedBox(height: kDefaultPadding * 2),
-                // AboutSection(),
+                AboutSection(),
                 // ServiceSection(),
                 // RecentWorkSection(),
                 // FeedbackSection(),
