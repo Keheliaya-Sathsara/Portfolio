@@ -3,7 +3,7 @@ import 'package:portfolio/constants.dart';
 import 'package:portfolio/sections/background.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key});
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
