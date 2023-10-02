@@ -59,27 +59,27 @@ class ContactBox extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               SocalCard(
-                color: Color(0xFFD9FFFC),
+                color: const Color(0xFFD9FFFC),
                 iconSrc: "assets/images/skype.png",
                 name: 'TheFlutterWay',
                 press: () {},
               ),
               SocalCard(
-                color: Color(0xFFE4FFC7),
+                color: const Color(0xFFE4FFC7),
                 iconSrc: "assets/images/whatsapp.png",
                 name: 'TheFlutterWay',
                 press: () {},
               ),
               SocalCard(
-                color: Color(0xFFE8F0F9),
+                color: const Color(0xFFE8F0F9),
                 iconSrc: "assets/images/messanger.png",
                 name: 'TheFlutterWay',
                 press: () {},
               ),
             ],
           ),
-          SizedBox(height: kDefaultPadding * 2),
-          ContactForm(),
+          const SizedBox(height: kDefaultPadding * 2),
+          const ContactForm(),
         ],
       ),
     );
@@ -102,7 +102,7 @@ class ContactForm extends StatelessWidget {
             width: 470,
             child: TextFormField(
               onChanged: (value) {},
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: "Your Name",
                 hintText: "Enter Your Name",
               ),
@@ -112,7 +112,7 @@ class ContactForm extends StatelessWidget {
             width: 470,
             child: TextFormField(
               onChanged: (value) {},
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: "Email Address",
                 hintText: "Enter your email address",
               ),
@@ -122,7 +122,7 @@ class ContactForm extends StatelessWidget {
             width: 470,
             child: TextFormField(
               onChanged: (value) {},
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: "Project Type",
                 hintText: "Select Project Type",
               ),
@@ -132,7 +132,7 @@ class ContactForm extends StatelessWidget {
             width: 470,
             child: TextFormField(
               onChanged: (value) {},
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: "Project Budget",
                 hintText: "Select Project Budget",
               ),
@@ -143,13 +143,13 @@ class ContactForm extends StatelessWidget {
             // TextField by default cover the height, i tryed to fix this problem but i cant
             child: TextFormField(
               onChanged: (value) {},
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: "Description",
                 hintText: "Write some description",
               ),
             ),
           ),
-          SizedBox(height: kDefaultPadding * 2),
+          const SizedBox(height: kDefaultPadding * 2),
           Center(
             child: FittedBox(
               child: DefaultButton(

@@ -1,5 +1,7 @@
+// ignore: file_names
+// ignore_for_file: file_names, duplicate_ignore
+
 import 'package:flutter/material.dart';
-import 'package:portfolio/constants.dart';
 import 'package:portfolio/sections/about/about_section.dart';
 import 'package:portfolio/sections/background.dart';
 

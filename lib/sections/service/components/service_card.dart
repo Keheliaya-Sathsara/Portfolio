@@ -45,7 +45,7 @@ class _ServiceCardState extends State<ServiceCard> {
           children: [
             AnimatedContainer(
               duration: duration,
-              padding: EdgeInsets.all(kDefaultPadding * 1.5),
+              padding: const EdgeInsets.all(kDefaultPadding * 1.5),
               height: 120,
               width: 120,
               decoration: BoxDecoration(
