@@ -26,8 +26,8 @@ class Background extends StatelessWidget {
             radius: 0.5,
           ),
           gradient: const LinearGradient(colors: [
-            Color.fromARGB(255, 72, 188, 255),
-            Color.fromARGB(255, 62, 255, 207),
+            Color.fromARGB(131, 72, 188, 255),
+            Color.fromARGB(118, 62, 255, 207),
           ], begin: Alignment.bottomRight, end: Alignment.topLeft),
           metaballs: 30,
           animationDuration: const Duration(milliseconds: 200),

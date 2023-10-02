@@ -14,12 +14,13 @@ class TopSection extends StatelessWidget {
       alignment: Alignment.center,
       constraints: const BoxConstraints(maxHeight: 900, minHeight: 700),
       width: double.infinity,
-      decoration: const BoxDecoration(
-        image: DecorationImage(
-          fit: BoxFit.cover,
-          image: AssetImage("assets/images/background.png"),
-        ),
-      ),
+      // decoration: const BoxDecoration(
+      //   image: DecorationImage(
+      //     fit: BoxFit.cover,
+      //     image: AssetImage("assets/images/background.png"),
+
+      //   ),
+      // ),
       child: Container(
         margin: const EdgeInsets.only(top: kDefaultPadding),
         width: 1200,

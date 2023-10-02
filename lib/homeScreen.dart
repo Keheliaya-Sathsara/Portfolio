@@ -2,8 +2,14 @@
 // ignore_for_file: file_names, duplicate_ignore
 
 import 'package:flutter/material.dart';
+import 'package:portfolio/constants.dart';
 import 'package:portfolio/sections/about/about_section.dart';
 import 'package:portfolio/sections/background.dart';
+import 'package:portfolio/sections/contact/contact_section.dart';
+import 'package:portfolio/sections/feedback/feedback_section.dart';
+import 'package:portfolio/sections/recent_work/recent_work_section.dart';
+import 'package:portfolio/sections/service/service_section.dart';
+import 'package:portfolio/sections/topSection/top_section.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -19,18 +25,18 @@ class HomeScreen extends StatelessWidget {
           SingleChildScrollView(
             child: Column(
               children: const [
-                // TopSection(),
-                // SizedBox(height: kDefaultPadding * 2),
+                TopSection(),
+                SizedBox(height: kDefaultPadding * 2),
                 AboutSection(),
-                // ServiceSection(),
-                // RecentWorkSection(),
-                // FeedbackSection(),
-                // SizedBox(height: kDefaultPadding),
-                // ContactSection(),
+                ServiceSection(),
+                RecentWorkSection(),
+                FeedbackSection(),
+                SizedBox(height: kDefaultPadding),
+                ContactSection(),
                 // This SizeBox just for demo
-                // SizedBox(
-                //   height: 500,
-                // )
+                SizedBox(
+                  height: 500,
+                )
               ],
             ),
           ),
