@@ -14,7 +14,7 @@ class ContactSection extends StatelessWidget {
       // height: 500,
       width: double.infinity,
       decoration: const BoxDecoration(
-        color: Color(0xFFE8F0F9),
+        color: Color.fromARGB(87, 232, 240, 249),
         image: DecorationImage(
           fit: BoxFit.cover,
           image: AssetImage("assets/images/bg_img_2.png"),
@@ -27,6 +27,7 @@ class ContactSection extends StatelessWidget {
             title: "Contact Me",
             subTitle: "For Project inquiry and information",
             color: Color(0xFF07E24A),
+            
           ),
           ContactBox()
         ],
